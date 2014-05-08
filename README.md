@@ -3,6 +3,8 @@ Colour Converter
 
 Convert colour codes of different types to each other. Supported types are hex, rgb, cymk, hsl and named colours.
 
+Demo: http://spedwards.github.io/projects/colour
+
 To call the function, use `convertColour(colourType, value)`.
 
 Supported values are as follows:
