@@ -29,3 +29,7 @@ Note: All colour types are to be passed as lowercase. Example:
 
     > convertColour('hex', '#0f0');
     {"rgb":"rgb(0,255,0)","rgba":"rgba(0,255,0,1)","hex":"#0f0","hsl":"hsl(0.3333333333333333,1,0.5)","named":["lime"]}
+    
+    
+    > convertColour('websafe', 'green');
+    {"rgb":"rgb(0,128,0)","rgba":"rgba(0,128,0,1)","hex":"#008000","hsl":"hsl(0.3333333333333333,1,0.25098039215686274)","named":"green"}
